@@ -10,4 +10,5 @@
 
 @interface ZMBViewController : UIViewController
 
+- (IBAction)buttonPressed;
 @end

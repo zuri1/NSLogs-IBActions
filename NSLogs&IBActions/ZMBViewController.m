@@ -29,4 +29,8 @@
 - (IBAction)buttonPressed{
     NSLog(@"Pressed, hehe.");
 }
+
+- (IBAction)toggleOnForSwitch{
+    NSLog(@"Groovy, baby!");
+}
 @end

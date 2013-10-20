@@ -11,4 +11,5 @@
 @interface ZMBViewController : UIViewController
 
 - (IBAction)buttonPressed;
+- (IBAction)toggleOnForSwitch;
 @end

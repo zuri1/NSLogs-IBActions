@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZMBViewController : UIViewController
+@interface ZMBViewController : UIViewController{
+    IBOutlet UISlider *slider;
+}
 
 - (IBAction)buttonPressed;
 - (IBAction)toggleOnForSwitch;
+- (IBAction)slideTheSlider:(id)sender;
 @end

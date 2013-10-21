@@ -33,4 +33,10 @@
 - (IBAction)toggleOnForSwitch{
     NSLog(@"Groovy, baby!");
 }
+
+- (IBAction)slideTheSlider:(id)sender{
+    if (slider.value > 0.5) {
+    NSLog(@"U2");
+    }
+}
 @end
